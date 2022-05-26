@@ -1,0 +1,32 @@
+<!-- Card Formate -->
+
+<h1 class="text-center text-danger">!..Draft Data..!</h1>
+
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-10" style="margin-left:300px ;">
+        <div class="card" *ngFor="let gmaild of GmailData" style="margin-bottom: 5px;">
+            <div class="card-body">
+      
+              <div class="row">
+              <div class=" col-1 form-check text-left">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="star">
+                  <input class="star" type="checkbox" title="bookmark page">
+                </label>
+              </div>
+      
+                <div class="col-4 text-left">
+                  <h6 class="text-dark text-capitalize"><b>{{gmaild.id}}. &nbsp;&nbsp;{{gmaild.name}}</b></h6>
+                </div>
+                <div class="col-7">
+                <h6 class="text-secondary text-capitalize"><b class="text-dark">{{gmaild.email}}</b>&nbsp;-&nbsp; {{gmaild.body}}</h6>
+              </div>
+        
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+
+   

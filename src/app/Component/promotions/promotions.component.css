@@ -1,0 +1,19 @@
+/* Started Check Box */
+
+.star {
+    visibility:hidden;
+    font-size:27px;
+    cursor:pointer;
+  }
+  .star:before {
+   content: "\2606";
+   position: absolute;
+   visibility:visible;
+   margin-top: -17px;
+  }
+  .star:checked:before {
+   content: "\2605";
+   position: absolute;
+   color: rgb(246, 246, 112);
+   margin-top: -17px;
+  }

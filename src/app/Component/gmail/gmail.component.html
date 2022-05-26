@@ -1,0 +1,261 @@
+<!-- Horizontal NavBar -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+  <div class="container-fluid">
+    <!-- Toggle Icons -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" id="sidebarCollapse" class="icon icon-tabler icon-tabler-menu-2" width="30"
+      height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="4" y1="12" x2="20" y2="12" />
+      <line x1="4" y1="18" x2="20" y2="18" />
+    </svg>
+
+    <img class="img-fluid ms-5" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
+      alt="Gmail Icon" width="109px" height="40px">
+
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <div class="input-group">
+        <div class="input-group-text bg-light" id="input-group"><svg xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-search" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="10" cy="10" r="7" />
+            <line x1="21" y1="21" x2="15" y2="15" />
+          </svg></div>
+        <input class="form-control bg-light" id="input" type="search" placeholder="Search mail" aria-label="Search">
+      </div>
+    </div>
+    <!-- End Horizontal navbar -->
+
+    <!-- Image Model -->
+
+    <form class="d-flex">
+      <img src="https://lh3.googleusercontent.com/ogw/ADea4I6zN7QnAW9TDJwrhUdDx-PsC38GxNb_fdaxGLfcmg=s32-c-mo"
+        class="img-fluid" width="35px" height="35px" id="img" onclick="myFunction()">
+    </form>
+
+  </div>
+</nav>
+
+<!-- Image Model -->
+
+<!-- <div id="myDIV">
+  <img src="https://lh3.googleusercontent.com/a-/AOh14GjjVEAX0JNPc5c8vOsjBH5HdZOFQ5j7qtmngsOxcQ=s360-p-rw-no"
+    class="img-fluid mt-4" width="75px" height="75px" id="img1">
+
+    <h6 class="text-center mt-2">Ravi Sachin</h6>
+    <h6 class="text-center text-secondary">ravisachin36@gmail.com</h6>
+
+    <button type="button" class="btn btn-light bg-light rounded-pill shadow-sm px-4" id="b1">
+      <small class="font-weight-bold">Manage your Google Account</small></button>
+
+      <hr>
+
+
+        <h6 class="text-center"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-plus" 
+          width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" fill="none" stroke-linecap="round" 
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <circle cx="9" cy="7" r="4" />
+          <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+          <path d="M16 11h6m-3 -3v6" />
+        </svg>&nbsp;&nbsp;&nbsp;Add another account</h6>
+
+
+      <hr>
+
+        <button class="btn1 btn btn-light">Sign out</button>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-6"><a href="https://policies.google.com/privacy?hl=en_GB" class="text-secondary" id="a">Privacy policy</a></div>
+        <div class="col-6">
+          <ul id="ul">
+         <a href="https://policies.google.com/terms?hl=en-GB"><li class="text-secondary" id="li">Terms of ervice</li></a> 
+        </ul></div>
+      </div>
+</div> -->
+
+
+
+<!-- Vertical navbar -->
+
+<div class="vertical-nav bg-white" id="sidebar">
+  <div class="py-4 px-3 mb-4 bg-light">
+    <div class="media d-flex align-items-center">
+      <button type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4">
+        <img src="https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png" class="img-fluid"
+          alt=" Compose Icon"> &nbsp;
+        <small class="font-weight-bold"><b>Compose</b> </small></button>
+    </div>
+  </div>
+
+
+  <ul class="nav flex-column bg-white">
+    <li class="nav-item">
+      <a routerLink="primary" class="nav-link" id="inbox">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png" alt="icon">
+        &nbsp; <span class="text-danger"><b>Inbox</b></span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="starred" class="nav-link text-dark font-italic" id="starred">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png" alt="">
+        &nbsp; Starred
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="snoozed" class="nav-link text-dark font-italic" id="starred">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/watch_later_black_20dp.png" alt="">
+        &nbsp; Snoozed
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="sent" class="nav-link text-dark font-italic" id="starred">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/send_black_20dp.png" alt="">
+        &nbsp; Sent
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="draft" class="nav-link text-dark font-italic" id="starred">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/insert_drive_file_black_20dp.png" alt="">
+        &nbsp; Draft
+      </a>
+    </li>
+  </ul>
+
+  <hr>
+
+  <p class="text-gray font-weight-bold px-3"><b>Meet</b></p>
+
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item">
+      <a routerLink="newmeet" class="nav-link text-dark font-italic" id="starred">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/videocam_black_20dp.png" alt="">
+        &nbsp; New meeting
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="joinameet" class="nav-link text-dark font-italic" id="starred">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/keyboard_black_20dp.png" alt="">
+        &nbsp; Join a meeting
+      </a>
+    </li>
+  </ul>
+
+  <hr>
+
+  <p class="text-gray font-weight-bold px-3"><b>Hangouts</b></p>
+
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item">
+      <a href="#" class="nav-link text-dark font-italic" id="starred">
+        <img src="https://lh3.googleusercontent.com/a-/AOh14GjjVEAX0JNPc5c8vOsjBH5HdZOFQ5j7qtmngsOxcQ=s28-c-k-no"
+          style="border-radius: 50%;" alt="">
+        &nbsp; Ravi
+      </a>
+    </li>
+  </ul>
+</div>
+<!-- End vertical navbar -->
+
+
+
+<!-- Primary ,Social and Promotions Sector -->
+
+<div class="container">
+<div class="row">
+  <div class="col-2"></div>
+
+  <div class="col-10">
+    <div class="row">
+      <div class="col-3" id="div">
+        <ul class="nav flex-column bg-white mb-0">
+          <li class="nav-item">
+            <a routerLink="primary" class="nav-link text-dark font-italic position-relative" id="primary1">
+              <img src="https://www.gstatic.com/images/icons/material/system/2x/inbox_gm_googlered600_20dp.png" alt="">
+              &nbsp; <span class="position-absolute top-40 start-100 translate-middle badge rounded-pill bg-danger">
+                10+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+              <span id="primary1">Primary</span> 
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-3" id="div1">
+        <ul class="nav flex-column bg-white mb-0">
+          <li class="nav-item">
+            <a routerLink="social" class="nav-link text-dark font-italic position-absolute" id="primary">
+              <img src="https://www.gstatic.com/images/icons/material/system/2x/people_black_20dp.png" alt="">
+              &nbsp; <span class="position-absolute top-40 start-100 translate-middle badge rounded-pill bg-primary">
+                50+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+              <span class="text-secondary" id="social">Social</span> 
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-3" id="div2">
+        <ul class="nav flex-column bg-white mb-0">
+          <li class="nav-item">
+            <a routerLink="promotions" class="nav-link text-dark font-italic position-absolute" id="primary">
+              <img src="https://www.gstatic.com/images/icons/material/system/2x/local_offer_black_20dp.png" alt="">
+              &nbsp; <span class="position-absolute top-40 start-100 translate-middle badge rounded-pill bg-success">
+                99+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+               <span class="text-secondary" id="promotion">Promotions</span> 
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-3"></div>
+    </div>
+
+    <hr class="text-secondary">
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+</div>
